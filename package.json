@@ -1,0 +1,24 @@
+{
+  "name": "electrontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.bult.js",
+  "devDependencies": {
+    "rollup": "^1.19.4",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-multi-entry": "^2.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sucrase": "^2.1.0"
+  },
+  "scripts": {
+    "start": "env NODE_ENV=production node_modules/.bin/rollup -c",
+    "dev": "env NODE_ENV=development node_modules/.bin/rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sucrase": "^3.10.1"
+  }
+}
