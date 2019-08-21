@@ -2,7 +2,7 @@
   "name": "electrontest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.bult.js",
+  "main": "index.built.js",
   "devDependencies": {
     "rollup": "^1.19.4",
     "rollup-plugin-commonjs": "^10.0.2",
