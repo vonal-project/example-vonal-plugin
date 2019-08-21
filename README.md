@@ -20,5 +20,4 @@ module.exports = React.createElement('div',null,['Hello world'])
 ### Toturial - If you want to use JSX :
 1. Clone this repository 
 2. Run `npm i` from this directory
-3. Run `npm dev` for development
-4. Run `npm start` for production build
+3. Run `npm dev` to build the code
