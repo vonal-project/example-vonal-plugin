@@ -1,5 +1,4 @@
 import { spawn } from 'child_process'
-import { ipcRenderer } from 'electron'
 
 export default (q) => {
     if(q.includes('keyword to trigger'))
@@ -10,7 +9,7 @@ export default (q) => {
                 spawn( "/usr/bin/chromium", { detached:true, stdio:'ignore' }).unref()
                 
                 // hide Vonal
-                ipcRenderer.send('hide')
+                global.PluginEventHandler.send('window:hide')
             }}>chromium</button>
         </div>
 

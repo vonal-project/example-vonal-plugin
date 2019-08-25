@@ -13,7 +13,7 @@ This would be a bit harder to be used to, but you will not need node_modules, so
 2. Make a package.json with content: `{ main: 'index.js'}` this will be the entry point of your plugin
 3. Make an index.js file like this:
 ```js
-module.exports = React.createElement('div',null,['Hello world'])
+module.exports = q => React.createElement('div',null,['Hello world'])
 ```
 
 
